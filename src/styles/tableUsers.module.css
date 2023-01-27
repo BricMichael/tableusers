@@ -1,0 +1,39 @@
+.container {
+    color: #6464cb;
+}
+
+.table {
+    height: 440px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profilePicture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: .1rem;
+}
+
+.wrapperButtons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.buttonsPagination {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    background: #6464cb;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+
+.buttonsPagination:hover {
+    background: #535387;
+}
